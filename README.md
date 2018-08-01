@@ -18,4 +18,4 @@ It loads plugins and reports any error in console.
 
 Some of the first plugins are, SIML based chatbot and a web based chatInterface.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![ChatInterface Plugin](https://github.com/cppxaxa/ICAN.SIC_Executables/blob/master/Screenshots/ChatInterface.png?raw=true)
