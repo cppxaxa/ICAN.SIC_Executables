@@ -1,15 +1,16 @@
 	<head>
 		<title>Chat Interface ICAN.SIC</title>
+		<meta name="viewport" content="width=device-width, initial-scale=2.0">
 	</head>
 
 
 	<script src="Scripts/jquery-1.6.4.min.js"></script>
 	<script src="Scripts/jquery.signalR-2.0.3.min.js"></script>
-	<script src="http://localhost:20000/signalr/hubs"></script>
+	<script src="http://192.168.43.114:20000/signalr/hubs"></script>
 	<script type="text/javascript">
 		//$(function () {
 			//Set the hubs URL for the connection
-			$.connection.hub.url = "http://localhost:20000/signalr";
+			$.connection.hub.url = "http://192.168.43.114:20000/signalr";
 
 			var chat = $.connection.chatInterfaceSignalRHub;
 			chat.client.addBotMessage = function (message) {
