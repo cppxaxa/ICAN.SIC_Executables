@@ -1,0 +1,23 @@
+------------------------------------------------------------
+Message:	Before executing preset: Preset2,1
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	QueryDeviceState(Win10Device1, 5000) = ()
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		()
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
