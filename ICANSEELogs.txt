@@ -1,5 +1,5 @@
 ------------------------------------------------------------
-Message:	Before executing preset: Preset2,1
+Message:	Before executing preset: captioning,1
 
 ------------------------------------------------------------
 ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
@@ -10,6 +10,175 @@ ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
 
 ------------------------------------------------------------
 Message:	QueryDeviceState(Win10Device1, 5000) = ()
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		()
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	SetCameraActive=1,Default webcam
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Camera=1,Default webcam;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	Before UnloadPresetAndCamera preset: captioning
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Camera=1,Default webcam;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	SetPresetActive=captioning,Sample Preset 3
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Algo=AlgoType5,Image Caption Generation;PresetId&Name=captioning,Sample Preset 3;Camera=1,Default webcam;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	One Run ClearPreset=captioning,Sample Preset 3
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Algo=AlgoType5,Image Caption Generation;Camera=1,Default webcam;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	Before UnloadPresetAndCamera preset: captioning
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Algo=AlgoType5,Image Caption Generation;Camera=1,Default webcam;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	1 Before UnloadCamera for preset (camera=1, preset=captioning)
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Algo=AlgoType5,Image Caption Generation;Camera=1,Default webcam;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	1 After UnloadCamera for preset (camera=1, preset=captioning)
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Algo=AlgoType5,Image Caption Generation;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	2 Before UnloadAlgorithm for preset: captioning
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		(Algo=AlgoType5,Image Caption Generation;)
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	2 After UnloadAlgorithm for preset: captioning
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		()
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	3 Before UnloadAlgorithm for preset: captioning
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		()
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	3 After UnloadAlgorithm for preset: captioning
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		()
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	4 Before UnloadPreset: captioning,Win10Device1,5000
+
+------------------------------------------------------------
+ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
+		Port(5000)
+		()
+
+ComputeDev: Ubuntu1604Device1/ Acer Nitro 5-YTD Linux/ localhost
+--------------------------END-------------------------------
+
+
+
+------------------------------------------------------------
+Message:	4 After UnloadPreset (status=False): captioning,Win10Device1,5000
 
 ------------------------------------------------------------
 ComputeDev: Win10Device1/ Dell Precision M3800-YTD Win10/ localhost
