@@ -384,7 +384,7 @@
             bubbleList[i].style.width = (width - 150) + "px";
         }
 
-        window.scrollTo(0, document.body.scrollHeight);
+		setTimeout(function() {window.scrollTo(0, document.body.scrollHeight)}, 800);
     }
 
     window.onresize = function (event) {
@@ -533,13 +533,13 @@
 
 		else if (infoType == "USER-MACHINE MESSAGE") {
 			if (message == '') {
-				botMessageTemplate = createElementFromHTML('<div class="bubble">\
-				<div class="txt">\
-				<p class="name">' + infoType + '</p>\
-				<span class="timestamp">' + (new Date()).getHours() + ':' + (new Date()).getMinutes() + '</span>\
-				</div>\
-				<div class="bubble-arrow"></div>\
-				</div>');
+				// botMessageTemplate = createElementFromHTML('<div class="bubble">\
+				// <div class="txt">\
+				// <p class="name">' + infoType + '</p>\
+				// <span class="timestamp">' + (new Date()).getHours() + ':' + (new Date()).getMinutes() + '</span>\
+				// </div>\
+				// <div class="bubble-arrow"></div>\
+				// </div>');
 			}
 			else {
 				botMessageTemplate = createElementFromHTML('<div class="bubble">\
